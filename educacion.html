@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Genaro Muñoz">
+		<meta name="description" content="Evaluación Fundamentos de HTML | Pagina con los datos de estudios">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>Curriculum Vitae Genaro Muñoz Obregón | Educación</title>
+	</head>
+	<body>
+	<header align="center">
+		<img src="img/Logo_gmo.svg" width="200px" height="200px">
+		<h1>Curriculum Vitae</h1>
+			<h2>Genaro Muñoz Obregón</h2>
+				<h3>13 de Marzo 1981 - Barrancabermeja,Santander</h3>
+	</header>
+	<!-- Enlaces de menú -->
+		<navbar>
+			<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</navbar>
+
+		<br/>
+		
+		<section>
+		<h2>Educación</h2>
+		<br/>
+		<table align="center" border="1px #cccccc" width="auto">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+
+			<tr>
+			<td>2016</td>
+			<td>Politécnico Grancolombiano</td>
+			<td>Bogotá</td>
+			<td>Si</td>
+			</tr>
+			<tr>
+			<td>2013</td>
+			<td>Universitaria de Investigación y Desarrollo</td>
+			<td>Bucaramanga</td>
+			<td>Si</td>
+			</tr>
+			<tr>
+			<td>1997</td>
+			<td>Seminario San Pedro Claver</td>
+			<td>Barrancabermeja</td>
+			<td>Si</td>
+			</tr>
+		</table>
+		<br/>
+
+		
+		<br/>
+		<form>
+			<fieldset>
+				<legend><h3>Agregar Estudios</h3></legend>
+				<label for="Anyo">Año</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select id="Anyo">
+					<option>[Seleccione Año]</option>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+					<option>2013</option>
+					<option>2012</option>
+					<option>2011</option>
+					<option>2010</option>
+					<option>2009</option>
+					<option>2008</option>
+					<option>2007</option>
+					<option>2006</option>
+					<option>2005</option>
+					<option>2004</option>
+					<option>2003</option>
+					<option>2002</option>
+					<option>2001</option>
+					<option>2000</option>
+				</select>
+				<br/><br/>
+				<label for="institucion">Institución</label>
+				<input type="text" name="institucion" id="institucion" required placeholder="Intitución donde estudio">
+				<br/><br/>
+				<label for="lugar">Lugar</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<textarea cols="20" rows="10" name="lugar" id="lugar"> </textarea>
+				<br/><br/>
+				<label for="culmino">¿Culminó?</label>
+				<input type="radio" name="culmino" id="culmino" value="Si">Si
+				<input type="radio" name="culmino" id="culmino" value="No">No
+				<br/><br/>
+				<input type="submit" name="Enviar" id="Enviar" value="Enviar">
+			</fieldset>
+		</form>
+
+		</section>
+
+		<footer>
+			<p align="center"><strong>Copyright @2017 Genaro Muñoz Obregón</strong></p>
+			<ul>
+				<li>Dirección: Carrera 19 # 40 35</li>
+				<li>Telefono: +57 318 691 2638</li>
+				<li>Correo: gmoweb2017@gmail.com</li>
+				<li>URL: www.demage.co</li>
+			</ul>
+		</footer>
+	</body>
+</html>
